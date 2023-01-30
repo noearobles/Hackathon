@@ -1,0 +1,25 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/noearobles/Hackathon.git"
+  },
+  "keywords": [],
+  "author": "Noe Robles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noearobles/Hackathon/issues"
+  },
+  "homepage": "https://github.com/noearobles/Hackathon#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "is-letter": "^1.2.1",
+    "mocha": "^10.2.0"
+  }
+}
