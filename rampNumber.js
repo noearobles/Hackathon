@@ -28,7 +28,7 @@ const rampNumber = function (A = []) {
 // to run the function use the command: node main.js
 // to close it ctrl + C
 const getPrompt = () => {
-  rl.question("Pick a post to test my ramp numbers function: ", (answer) => {
+  rl.question("Pick a positive integer to test my ramp numbers function: ", (answer) => {
     let userInput = answer.trim();
     console.log(rampNumber(userInput));
     getPrompt();
