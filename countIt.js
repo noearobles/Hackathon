@@ -16,9 +16,9 @@ const countIt = (str) => {
     console.log("Invalid string");
     return;
   }
-  //cor loop to iterate over string
+  
   for (let i = 0; i < input.length; i++) {
-    //variable counting occurrence
+
     let count = 0;
     for (let j = 0; j < input.length; j++) {
       if (input[i] == input[j] && i > j) {
